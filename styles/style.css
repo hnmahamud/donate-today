@@ -102,4 +102,80 @@
 
 .input-width {
     width: 100%;
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid #DADADA;
+    margin-bottom: 30px;
+}
+
+/* Donate Plan Section Style */
+.today-btn {
+    text-align: center;
+}
+
+.plan-container {
+    display: flex;
+    gap: 24px;
+    margin: 0 157px;
+}
+
+.plan1 {
+    background: rgba(79, 157, 166, 0.1);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.plan2 {
+    background: rgba(255, 89, 89, 0.1);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.plan3 {
+    background: #FFF4D6;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.plan-title {
+    font-weight: 600;
+    font-size: 24px;
+    color: #121212;
+    margin-top: 30px;
+    margin-bottom: 16px;
+}
+
+.plan-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+}
+
+/* lives and Need Part Style */
+
+.lives-container {
+    display: flex;
+    gap: 83px;
+    margin: 0 157px;
+    align-items: center;
+}
+
+.lives > img {
+    height: 400px;
+    width: 600px;
+}
+
+.lives-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #121212;
+    margin-top: 130px;
+    margin-bottom: 20px;
+}
+
+.lives-description {
+    font-weight: 400;
+    font-size: 18px;
+    color: #707070;
+    margin-bottom: 20px;
 }
