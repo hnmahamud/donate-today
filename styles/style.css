@@ -1,6 +1,5 @@
 * {
     margin: 0;
-    font-family: 'Inter', sans-serif;
 }
 
 /* Header Section Styles */
@@ -19,6 +18,7 @@
 }
 
 .banner-title {
+    font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: 65px;
     color: #FFFFFF;
@@ -28,6 +28,7 @@
 }
 
 .banner-description {
+    font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 18px;
     color: #FFFFFF;
@@ -53,11 +54,15 @@
 /* Donate Today Section Style */
 .donate-today {
     background: white;
-    margin: 0 375px;
     align-items: center;
 }
 
+.btn-container {
+    margin: 0 375px;
+}
+
 .section-title {
+    font-family: 'Inter', sans-serif;
     text-align: center;
     font-weight: 700;
     font-size: 45px;
@@ -67,11 +72,13 @@
 }
 
 .section-description {
+    font-family: 'Poppins', sans-serif;
     text-align: center;
     font-weight: 400;
     font-size: 18px;
     color: #707070;
-    margin-bottom: 50px;
+    margin: 0 375px 50px 375px;
+    
 }
 
 .btn-container {
@@ -98,6 +105,10 @@
     font-weight: 700;
     font-size: 30px;
     padding: 44px 25px;
+}
+
+.today-input {
+    margin: 0 375px;
 }
 
 .input-width {
@@ -138,6 +149,7 @@
 }
 
 .plan-title {
+    font-family: 'Inter', sans-serif;
     font-weight: 600;
     font-size: 24px;
     color: #121212;
@@ -146,6 +158,7 @@
 }
 
 .plan-description {
+    font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 16px;
     color: #757575;
@@ -166,6 +179,7 @@
 }
 
 .lives-title {
+    font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: 45px;
     color: #121212;
@@ -174,8 +188,65 @@
 }
 
 .lives-description {
+    font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 18px;
     color: #707070;
     margin-bottom: 20px;
+}
+
+/* Updates Section Style */
+.updates {
+    margin-bottom: 130px;
+}
+
+.subscribe-container {
+    margin: 0 315px;
+    background: #FFF4D6;
+}
+
+.subscribe {
+    display: flex;
+    align-items: center;
+    padding-top: 76px;
+    padding-bottom: 76px;
+    padding-left: 250px;
+}
+
+.input-primary {
+    border-radius: 5px 0 0 5px;
+    border: 0;
+    padding: 16.5px 42px;
+    background: #D9D9D9;
+}
+
+.btn-secondary-other-sub {
+    background: #FF5959;
+    border-radius: 0 5px 5px 0;
+    border: 1px solid #FD6E0A;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 14px 12px;
+}
+
+/* Footer Section Style */
+.footer {
+    background: #0B0D17;
+    padding: 43px 650px;
+    text-align: center;
+}
+
+.footer-title {
+    font-family: 'Lobster', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    color: #FF5959;
+}
+
+.footer-description {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #D9DBE1;
 }
